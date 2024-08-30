@@ -7,11 +7,14 @@ url = "http://a.4cdn.org/boards.json"
 previous_data = None
 out_file_name = f"{int(time.time())}-boards.csv"
 
+
+print("Vivek added some line of code herere")
 while True:
     response = requests.get(url)
     parsed_response = response.json()
 
     current_data = parsed_response['boards']
+    
 
     if previous_data is None:
         
