@@ -19,6 +19,43 @@ while True:
     list = [1,2,3]
     list.sort()
     
+    
+    
+    ####################################----------------------------------code written by Vivek Raj-------------############################################
+    
+    
+    
+    def search_in_array(arr, key):
+        for index, value in enumerate(arr):
+            if value == key:
+                return index 
+        return -1  
+
+        # Example usage:
+    arr = [10, 20, 30, 40, 50]
+    key_to_search = 30
+
+    result = search_in_array(arr, key_to_search)
+
+    if result != -1:
+        print(f"{key_to_search} found at index {result}.")
+    else:
+        print(f"{key_to_search} not found in the array.")
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    #####--------------------------------------------------------------------------------------------------------------------------------------#####
 
     if previous_data is None:
         
