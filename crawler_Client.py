@@ -43,6 +43,7 @@ while True:
         print(f"{key_to_search} not found in the array.")
 
     
+    print("saharshini")
     
     
     
